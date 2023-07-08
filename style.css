@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.shadow {
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(214, 214, 215, 1);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(214, 214, 215, 1);
+  box-shadow: 0px 0px 19px 0px rgba(214, 214, 215, 1);
+}
+.bold {
+  font-weight: 700;
+}
+
+.new-line {
+  line-break: auto;
+}
+
+.header {
+  display: none;
+}
+
+.nav-ul-gap {
+  gap: 9.6rem;
+}
+
+nav {
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  gap: 12.8rem;
+  padding: 2.4rem;
+  background-image: url(img/pexels-todd-trapani-1382102.png);
+  background-size: cover;
+  background-position: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+nav a:link,
+footer a:link,
+nav a:active,
+footer a:active,
+nav a,
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #fccb42;
+  transition: 0.3s;
+}
+
+nav img {
+  width: 21rem;
+}
+
+.main-grid {
+  grid-template-columns: 5fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+  row-gap: 2rem;
+  margin-top: 3.2rem;
+}
+
+main {
+  padding: 8rem;
+}
+
+main h1 {
+  margin-bottom: 4.8rem;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  color: #5b5b5b;
+}
+
+.main-contact {
+  gap: 3.6rem;
+  width: 100%;
+  padding: 2.4rem;
+  background-color: #32620ef1;
+  align-items: center;
+  border-radius: 1.6rem;
+}
+.main-contact p {
+  font-size: 2.4rem;
+  color: #ffec99;
+  font-weight: 700;
+}
+
+.map {
+  border-radius: 1.6rem;
+  width: 45rem;
+  height: 35rem;
+}
+
+.main-contact img {
+  width: 5rem;
+}
+
+.grid-main-photo img {
+  border-radius: 1.6rem;
+  width: 95%;
+}
+.grid-main-photo {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.main-description {
+  margin-top: 12.8rem;
+  padding: 2.4rem;
+  width: 85vw;
+  text-align: center;
+}
+.main-description h2 {
+  color: #32620e;
+  font-size: 3.6rem;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
+
+.main-description p {
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+
+main .p-inviting {
+  font-weight: 700;
+  margin-top: 2.2rem;
+}
+
+.offer {
+  padding: 6.4rem;
+  margin-top: 8rem;
+  justify-content: center;
+  gap: 9.6rem;
+  font-size: 2.2rem;
+}
+.offer h3 {
+  color: #3b2204;
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding: 1.6rem;
+}
+.offer li {
+  padding: 1rem;
+}
+
+.offer-box ul {
+  list-style-type: none;
+}
+
+.offer-box {
+  padding: 3.2rem 6.4rem;
+  border-radius: 1.6rem;
+  width: 38%;
+  height: 42rem;
+  min-height: 30vh;
+  text-align: center;
+}
+
+.opening-hours {
+  border: 2px solid #fff1bb;
+}
+
+.price-list {
+  background-color: #fff1bb;
+}
+
+.gray-color {
+  color: #495057;
+}
+.main-color {
+  color: #32620e;
+  font-weight: 700;
+}
+
+aside {
+  margin-top: 12.8rem;
+  padding: 8rem;
+}
+aside h3 {
+  font-size: 2.4rem;
+  color: #5b5b5b;
+}
+
+.item {
+  flex: 1 1 auto;
+}
+.attractions {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.attract-flex {
+  justify-content: center;
+  gap: 6.4rem;
+}
+
+.attractions h4 {
+  color: #212529;
+  font-size: 2rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+.attract-logo {
+  margin-top: 6.4rem;
+}
+.attract-logo img {
+  width: 5rem;
+  height: 5rem;
+}
+.attractions p {
+  text-align: justify;
+}
+
+.gallery-flex {
+  justify-content: center;
+}
+.gallery {
+  margin-top: 12.8rem;
+}
+#video {
+  border-radius: 1.6rem;
+}
+
+footer {
+  margin-top: 12.8rem;
+  padding: 3.2rem;
+  background-color: #32620e;
+  gap: 9.6rem;
+}
+footer p {
+  font-size: 2.4rem;
+  color: white;
+}
+#footer-img {
+  width: 25rem;
+}
+.footer-contact {
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+.mailto {
+  font-weight: 700;
+  color: #fccb42;
+}
+.right-side-footer p {
+  font-size: 1.2rem;
+}
+.footer-social {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+.social-section {
+  gap: 1.6rem;
+}

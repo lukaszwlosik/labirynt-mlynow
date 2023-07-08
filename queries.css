@@ -1,0 +1,416 @@
+@media (max-width: 96rem) {
+  .main-grid {
+    grid-template-columns: 1.3fr 1fr;
+  }
+  .main-description h2 {
+    font-size: 3rem;
+  }
+  .main-description p {
+    font-size: 1.8rem;
+  }
+
+  .attractions h4 {
+    font-size: 1.6rem;
+  }
+  .attractions p {
+    font-size: 1.4rem;
+  }
+
+  .offer-box {
+    width: 44%;
+  }
+
+  footer p {
+    line-height: 1.5;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 86rem) {
+  nav ul li {
+    font-size: 2.8rem;
+  }
+  .nav-ul-gap {
+    gap: 6.4rem;
+  }
+
+  main h1 {
+    font-size: 2.8rem;
+  }
+  .main-description h2 {
+    font-size: 2.8rem;
+  }
+  .main-description p {
+    font-size: 2.2rem;
+  }
+
+  .offer h3 {
+    font-size: 2.8rem;
+  }
+  .offer {
+    font-size: 2.2rem;
+    gap: 6.4rem;
+  }
+
+  aside h3 {
+    font-size: 1.8rem;
+  }
+  .attractions h4 {
+    font-size: 1.4rem;
+  }
+  .attractions {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    gap: 8rem;
+  }
+  .footer-contact {
+    font-size: 2rem;
+  }
+  #footer-img {
+    width: 15rem;
+  }
+  .right-side-footer p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 75rem) {
+  nav img {
+    width: 15rem;
+  }
+  nav {
+    gap: 9.6rem;
+  }
+  nav ul li {
+    font-size: 2.6rem;
+  }
+
+  main {
+    padding: 4.8rem;
+  }
+  .main-contact img {
+    width: 4rem;
+  }
+  .main-description p {
+    font-size: 2rem;
+  }
+  .grid-main-photo {
+    width: 100%;
+  }
+  .main-grid {
+    column-gap: 1.6rem;
+    grid-template-columns: 2fr 1fr;
+  }
+  .main-contact p {
+    font-size: 2.2rem;
+  }
+  .map {
+    width: 35rem;
+    height: 25rem;
+  }
+  .main-description h2 {
+    font-size: 2.4rem;
+  }
+
+  .offer h3 {
+    font-size: 2.4rem;
+  }
+  .offer-box {
+    width: 50%;
+  }
+  .offer {
+    font-size: 2rem;
+  }
+
+  .attract-flex {
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .attractions h4 {
+    font-size: 2rem;
+  }
+  .attractions p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 68rem) {
+  nav {
+    gap: 6.4rem;
+  }
+
+  .main-description,
+  .offer,
+  aside {
+    margin-top: 4.8rem;
+  }
+  .main-description h2 {
+    font-size: 2.8rem;
+  }
+  .main-description p {
+    font-size: 1.8rem;
+  }
+  .offer {
+    font-size: 1.6rem;
+  }
+  .main-description-new-line {
+    white-space: pre;
+  }
+
+  .offer h3 {
+    font-size: 2.1rem;
+  }
+
+  #footer-img {
+    width: 10rem;
+  }
+  footer p {
+    font-size: 1.2rem;
+  }
+  footer {
+    gap: 4.8rem;
+  }
+}
+
+@media (max-width: 59rem) {
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .btn-mobile-header {
+    display: block;
+  }
+  #mobile-nav {
+    display: none;
+    background-image: none;
+  }
+  header a:active,
+  header a:visited,
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+  header ul {
+    list-style-type: none;
+  }
+
+  .inactive {
+    display: none;
+  }
+  .active {
+    display: none;
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr;
+    row-gap: 3.6rem;
+  }
+  .grid-main-map {
+    justify-self: center;
+  }
+  .grid-main-photo img {
+    width: 100%;
+  }
+
+  .offer h3,
+  .attractions h4 {
+    font-size: 2.2rem;
+  }
+  .main-description p {
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 1.7;
+  }
+  main .p-inviting {
+    text-align: center;
+  }
+  .main-description h2 {
+    margin-bottom: 2.4rem;
+    font-size: 2.5rem;
+  }
+
+  .offer,
+  .attractions p {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+  }
+  .offer-box {
+    width: 70%;
+    height: 35rem;
+  }
+
+  aside h3 {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    gap: 1.6rem;
+  }
+  .footer-contact {
+    font-size: 1.8rem;
+  }
+  .social-section {
+    gap: 1.2rem;
+  }
+  .social-section img {
+    width: 4rem;
+  }
+  .right-side-footer p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 44rem) {
+  main h1 {
+    font-size: 2.4rem;
+  }
+  .main-description h2 {
+    font-size: 2.2rem;
+  }
+
+  .offer-box {
+    height: 40rem;
+    padding: 2.4rem;
+    width: 90%;
+  }
+
+  aside h3 {
+    font-size: 1.7rem;
+  }
+  .attractions h4 {
+    font-size: 2rem;
+  }
+
+  footer {
+    padding: 1.6rem;
+    gap: 1.4rem;
+  }
+
+  .main-side-footer p,
+  .footer-social {
+    font-size: 1.2rem;
+  }
+  .footer-social img {
+    width: 3.5rem;
+  }
+}
+
+@media (max-width: 37rem) {
+  main {
+    padding: 4.8rem 2.4rem;
+  }
+  .offer,
+  aside {
+    padding: 2.4rem;
+  }
+  .main-description {
+    padding: 0.2rem;
+  }
+  main h1 {
+    font-size: 2rem;
+  }
+
+  .main-contact p {
+    font-size: 2rem;
+  }
+  .map {
+    width: 30rem;
+  }
+
+  .main-description h2 {
+    font-size: 1.8rem;
+  }
+  .main-description p {
+    font-size: 1.6rem;
+  }
+
+  .offer-box {
+    height: 35rem;
+  }
+
+  #video {
+    width: 38rem;
+  }
+  .attractions h4 {
+    font-size: 1.6rem;
+  }
+  .attractions p {
+    font-size: 1.4rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .main-side-footer p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  #header-logo {
+    width: 10rem;
+  }
+  .btn-mobile-header {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .main-description h2 {
+    font-size: 1.7rem;
+  }
+  .main-description p,
+  .main-description h2 {
+    text-align: left;
+  }
+  .main-description .p-inviting {
+    text-align: center;
+  }
+  .main-grid {
+    row-gap: 2.4rem;
+  }
+  .main-contact {
+    gap: 1.4rem;
+  }
+  .main-contact img {
+    width: 3rem;
+  }
+  .main-contact p {
+    font-size: 1.6rem;
+  }
+  .map {
+    width: 24rem;
+  }
+
+  .main-description-new-line {
+    white-space: normal;
+  }
+
+  .offer {
+    font-size: 1.7rem;
+    padding: 1.6rem;
+  }
+  .main-color {
+    white-space: pre;
+  }
+  .offer-box {
+    width: 100%;
+    padding: 2.4rem 0.5rem;
+  }
+
+  #video {
+    width: 25rem;
+    height: 20rem;
+  }
+  .attractions h4 {
+    font-size: 1.6rem;
+  }
+  .attractions p {
+    font-size: 1.2rem;
+  }
+}
